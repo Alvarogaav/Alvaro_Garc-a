@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    animation:3s ease 3s normal forwards 1 fadein;
+    -webkit-animation:3s ease 3s normal forwards 1 fadein;
+    opacity:0
+    }
+    @media screen and (min-width: 300px) {
+        .title {
+            text-align: center;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+    
+          .title {
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+            padding-bottom: 1rem;
+            padding-top: 1.5rem;
+         }
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+.title_color {
+    background-color: black;
+}
+
+.button_1{
+    font-size: 25px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+
+
+    
+}
+
+.button_2 {
+}
+@media screen and (min-width: 300px) {
+    .button_2 {
+        display: none;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .button_2 {
+        display: contents;
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+        border: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: aliceblue;
+        background-color: black;
+        padding-top: 3px;
+        border-radius: 4px;
+        position: relative;
+        box-shadow: inset 0 0 0 0 aliceblue;
+        transition: ease-out 1s;
+        outline: none;
+
+     }
+}
+
+.button_2:hover {
+    color: black;
+    box-shadow: inset 0 0 120 0 aliceblue;
+    cursor: pointer;
+
+}
+.name {
+    font-size: 60rem;
+}
+
+.iamp{
+    background-image: url("../Images/northwoods-forest.png");
+    background-repeat: no-repeat;
+}
+@media screen and (min-width: 300px) {
+    .iamp {
+        height: 550px;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .iamp {
+        height: 600px;
+     }
+}
+
+.grid__1 {
+    padding: 2rem;
+}
+@media screen and (min-width: 300px) {
+    .grid__1 {
+        display: grid;
+        grid-template-columns: 4fr 5fr;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .grid__1 {
+        display: grid;
+        grid-template-columns: 7fr 8fr;
+        grid-template-rows: 1fr 1fr;
+        align-self: baseline;
+     }
+}
+
+.grid__empty {
+    
+}
+@media screen and (min-width: 300px) {
+    .grid__empty {
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .grid__empty {
+        height: 200px;
+     }
+}
+.text_container{
+    margin: 1 auto;
+    text-align: right;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation:3s ease 1s normal forwards 1 fadein;
+    -webkit-animation:3s ease 1s normal forwards 1 fadein;
+    opacity:0
+}
+@media screen and (min-width: 300px) {
+    .text_container {
+        font-size: 25px;
+        padding-right: 8px; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .text_container {
+        font-size: 80px;
+        padding-right: 20px; 
+     }
+    }
+.image_container {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    animation:3s ease 2s normal forwards 1 fadein;
+    -webkit-animation:3s ease 2s normal forwards 1 fadein;
+    opacity:0
+    }
+    @media screen and (min-width: 300px) {
+        .image_container {
+            font-size: 25px;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+    
+        .image_container {
+            font-size: 80px;
+         }
+    }
+.elements_1 {
+    height: auto;
+    max-width: 80%;
+
+}
+.elements_2 {
+    animation:3s ease 1s normal forwards 1 fadein;
+    -webkit-animation:3s ease 1s normal forwards 1 fadein;
+    opacity:0
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+.know_me{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    animation:3s ease 8s normal forwards 1 fadein;
+    -webkit-animation:3s ease 8s normal forwards 1 fadein;
+    opacity:0
+    }
+    @media screen and (min-width: 300px) {
+        .know_me {
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+    
+        .know_me {
+            font-size: 30px;
+         }
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+
+    animation:3s ease 8.5s normal forwards 1 fadein;
+    -webkit-animation:3s ease 8.5s normal forwards 1 fadein;
+    opacity:0
+
+    -webkit-animation mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    }
+    
+    @keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+    
+    @-webkit-keyframes fadein{from{opacity:0}
+    to{opacity:1}
+    }
+
+    @-webkit-keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+    @keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-10px); }
+    }
+
+
+.about__me {    
+    background: rgb(0,0,0);
+}
+
+@media screen and (min-width: 300px) {
+    .about__me {
+        height: 500px;
+        max-height: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .about__me {
+        height: 400px;
+        max-height: 400px;
+     }
+}
+.grid__2 {
+    padding-top: 30px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (min-width: 300px) {
+    .grid__2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0fr 1fr 1fr ;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .grid__2 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 3fr ;
+
+     }
+}
+.dont_exist {
+    height: 0px;
+}
+.grid__2__title {
+
+}
+@media screen and (min-width: 300px) {
+    .grid__2__title {
+        font-size: 40px;
+        padding-left: 20px;
+        height: 45px;
+        max-height: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .grid__2__title {
+        font-size: 50px;
+        padding-left: 40px;
+        height: 80px;
+     }
+}
+.grid__2__text {
+    color: aliceblue;
+    
+}
+@media screen and (min-width: 300px) {
+    .grid__2__text {
+        font-size: 10px;
+        padding-left: 20px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .grid__2__text {
+        font-size: 20px;
+        padding-left: 40px;
+     }
+}
+.experience{
+    height: 600px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.quote_background {
+    max-height: 600px;
+    background-image: url("../Images/guitar.jpeg");
+    background-size: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.quote_text {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+.quote_author {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+.jobs {
+    max-height: 600px;
+    background-image: url("../Images/wood.jpg");
+    background-size: 800px;
+    display: grid;
+    grid-template-columns: 3fr 4fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.jobs_title {
+    padding-left: 20px;
+    font-size: 30px;
+    padding-top: 25px;
+
+}
+.jobs_left{
+    border-bottom: solid aliceblue;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.jobs_middle{
+    border-bottom: solid aliceblue;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.jobs_right{
+    border-bottom: solid aliceblue;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.jobs_left_bottom{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.jobs_middle_bottom{
+    font-size: 20px;
+    padding-top: 25px;
+}
+.jobs_right_bottom{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.contact {
+    background-color: black;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+.contact_title {
+    padding-left: 20px;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.contact_text {
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 20px;  
+}
+.contact_email {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px; 
+}
+.linkedin {
+    max-height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;  
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.linkedin:hover {
+    max-height: 110px;
+    cursor: pointer;
+}
+.form {
+    padding-right: 50px;
+}
+.resume {
+    max-height: 500px;
+    height: 500px;
+    background-image: url("../Images/northwoods-forest.png");
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.download {
+
+    
+    border: solid aliceblue;
+    border-radius: 2px;
+    height: 100px;
+    width: 300px;
+    color: aliceblue;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    box-shadow: inset 0 0 0 0 aliceblue;
+    transition: ease-out 1s;
+    outline: none;
+}
+.download:hover {
+    box-shadow: inset 0px 0px 300px 0px aliceblue;
+    color: black;
+}
+
+
+
+
