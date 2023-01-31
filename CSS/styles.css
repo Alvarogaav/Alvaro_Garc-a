@@ -22,6 +22,8 @@
             grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
             padding-bottom: 1rem;
             padding-top: 1.5rem;
+            align-items: center;
+            
          }
     }
     
@@ -34,6 +36,7 @@
     }
 .title_color {
     background-color: black;
+
 }
 
 .button_1{
@@ -44,13 +47,17 @@
     background-color: black;
     width: 100%;
     text-align: center;
-
-
     
+}
+
+.button_1:hover {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .button_2 {
     color: aliceblue;
+    
 }
 @media screen and (min-width: 300px) {
     .button_2 {
@@ -61,20 +68,19 @@
 
 @media screen and (min-width: 1024px) {
 
-      .button_2 {
-        display: block;
-        align-items: center;
+      .button_2{
+        display: inline-block;
+        justify-content: center;
         width: 120px;
-        height: 35px;
-        font-size: 15px;
-        border: none;
+        height: 30px;
+        font-size: 16px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: aliceblue;
         background-color: black;
         padding-top: 3px;
         border-radius: 4px;
         position: relative;
-        box-shadow: inset 0 0 0 0 aliceblue;
+        box-shadow: inset 0 0 0 0 ;
         transition: ease-out 1s;
         outline: none;
 
@@ -86,6 +92,7 @@
     background-color: aliceblue;
     box-shadow: inset 0 0 120 0 aliceblue;
     cursor: pointer;
+    text-decoration: none;
 
 }
 .name {
@@ -473,6 +480,14 @@
         font-size: 20px;
      }
 }
+.jobs_title_column {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+
 .jobs_title {
     padding-left: 20px;
     font-size: 30px;
@@ -480,6 +495,7 @@
 }
 .jobs_left{
     border-bottom: solid aliceblue;
+    grid-column-start: 1;
     
 }
 @media screen and (min-width: 300px) {
@@ -550,15 +566,14 @@
 }
 @media screen and (min-width: 300px) {
     .contact {
-        height: 800px;
-        max-height: 800px;
+        height: 1000px;
+        max-height: 1000px;
     }
 }
 
 @media screen and (min-width: 1024px) {
       .contact {
         height: 450px;
-        min-height: 450px;
         max-height: 450px;
      }
 }
@@ -568,6 +583,7 @@
 }
 @media screen and (min-width: 300px) {
     .contact_grid {
+        padding-top: 260px;
         grid-template-rows: 1fr -1fr 1fr 1fr;
     }
 }
@@ -575,6 +591,7 @@
 @media screen and (min-width: 1024px) {
 
       .contact_grid {
+        padding-top: 0px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 4fr;
      }
@@ -594,6 +611,11 @@
     padding-right: 20px;
     font-size: 20px; 
 }
+.linkedin_container {
+        display: flex;
+        justify-content: center;
+        
+}
 .linkedin {
     max-height: 100px;
     padding-left: 20px;
@@ -601,12 +623,29 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
 .linkedin:hover {
     max-height: 110px;
     cursor: pointer;
 }
 .form {
-    padding-right: 50px;
+    
+}
+@media screen and (min-width: 300px) {
+    .form {
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+      .form {
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-right: 50px;
+     }
 }
 .resume {
     max-height: 500px;
@@ -637,7 +676,3 @@
     box-shadow: inset 0px 0px 300px 0px aliceblue;
     color: black;
 }
-
-
-
-
